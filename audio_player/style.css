@@ -129,3 +129,89 @@ footer{
 footer img{
     height: 30px;
 }
+
+@media (min-width: 1280px) {
+    .box{
+        width: 500px;
+    }
+    .song-cover{
+        width: 400px;
+        height: 400px;
+    }
+    .info{
+        width: 400px;
+    }
+    .buttons {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        width: 70px;
+    }
+    input{
+        width: 400px;
+    }
+    .time{
+        width: 400px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .song-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+        color:rgb(251, 242, 159);
+    }
+    .song-artist{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    footer img{
+        height: 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .box{
+        width: 650px;
+    }
+    .song-cover{
+        width: 470px;
+        height: 470px;
+    }
+    .info{
+        width: 470px;
+    }
+    .buttons {
+        display: flex;
+        gap: 35px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        width: 100px;
+    }
+    input{
+        width: 470px;
+    }
+    .time{
+        width: 470px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .song-title{
+        font-size: 35px;
+        margin-bottom: 15px;
+        color:rgb(251, 242, 159);
+    }
+    .song-artist{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    footer img{
+        height: 70px;
+    }
+    footer{
+        font-size: 30px;
+        padding: 30px;
+    }
+}
