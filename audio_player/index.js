@@ -92,6 +92,15 @@ progressBar.addEventListener('click', () => {
   song.currentTime = currentTime;
 });
 
+progressBar.addEventListener('touchend', () => {
+  const currentTime = progressBar.value;
+  let totalMin = Math.floor(currentTime / 60);
+  let totalSec = Math.floor(currentTime % 60);
+  musicCurrentTime.textContent = `${totalMin}:${totalSec}`;
+  song.currentTime = currentTime;
+  console.log('touch');
+});
+
 nextBtn.addEventListener('click', () => {
   songNum += 1;
   if (songNum > songsLength) {
