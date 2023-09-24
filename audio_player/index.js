@@ -17,7 +17,7 @@ let isPlay = false;
 let songNum = 0;      
 
 
-const coverArr = ['./assets/img/tv_girl.jpg', './assets/img/this_charmig_man.jpg', './assets/img/This_must_be_the_place.jpeg'];
+const coverArr = ['./assets/img/tv_girl.jpg', './assets/img/charming_man_cover.jpg', './assets/img/This_must_be_the_place.jpeg'];
 const songsArr = ['./assets/audio/TV Girl - Cigarettes out the Window.mp3', './assets/audio/The Smiths - This Charming Man.mp3', './assets/audio/Talking_Heads_This_Must_Be_The_Place.mp3'];
 const artistArr = ['TV Girl', 'The Smiths', 'Talking Heads'];
 const titleArr = ['Cigarettes out the Window', 'This Charming Man', 'This Must Be The Place'];
